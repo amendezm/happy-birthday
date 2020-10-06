@@ -58,7 +58,7 @@ body {
 }
 
 .four .text-box {
-  width: 600px;
+  width: 90%;
   margin: 0 auto;
   border: 3px solid #aaa;
   border-radius: 5px;
@@ -75,6 +75,10 @@ body {
   visibility: hidden;
 }
 
+.text-box .hbd-chatbox {
+  width:80%
+}
+
 .text-box .fake-btn {
   position: absolute;
   right: 5px;
@@ -86,14 +90,14 @@ body {
 }
 
 .five p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   position: absolute;
   left: 0;
   right: 0;
 }
 
 .idea-3 strong {
-  padding: 3px 5px;
+  padding: 3px 8px;
   border-radius: 3px;
   display: inline-block;
 }
@@ -133,18 +137,19 @@ body {
 .baloons img {
   display: inline-block;
   position: absolute;
+  width: 25rem;
 }
 
 .baloons img:nth-child(even) {
-  left: -10%;
+  left: 5%;
 }
 
 .baloons img:nth-child(odd) {
-  right: -10%;
+  right: 5%;
 }
 
 .baloons img:nth-child(3n + 0) {
-  left: 30%;
+  left: -20%;
 }
 
 .eight svg {
@@ -211,9 +216,8 @@ body {
 }
 
 .wish-hbd {
-  font-size: 3em;
+  font-size: 1.75rem;
   margin: 0;
-  text-transform: uppercase;
 }
 
 .wish h5 {
@@ -253,7 +257,7 @@ body {
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: 50%;
   }
 }
 
@@ -268,7 +272,7 @@ body {
 
   .text-box .fake-btn {
     right: 5px;
-    bottom: -38px;
+    bottom: 14px;
   }
 
   .idea-5 span {
@@ -276,16 +280,16 @@ body {
   }
 
   .idea-6 span {
-    font-size: 10rem;
+    font-size: 3rem;
   }
 
   .six .hat {
-    width: 50px;
-    top: -20px;
+    width: 21px;
+    top: 24%;
   }
 
   .wish-hbd {
-    font-size: 2.2em;
+    font-size: 1.75rem;
   }
 
   .wish h5 {
