@@ -76,7 +76,7 @@ body {
 }
 
 .text-box .hbd-chatbox {
-  width:80%
+  width: 80%;
 }
 
 .text-box .fake-btn {
@@ -104,6 +104,11 @@ body {
 
 .five .idea-5 {
   font-size: 4rem;
+}
+
+.five .idea-5 .main-word {
+  color: rgb(255, 117, 140);
+  font-weight: bold;
 }
 
 .idea-5 span,
@@ -227,7 +232,7 @@ body {
 }
 
 .nine p {
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: lighter;
 }
 
@@ -280,7 +285,7 @@ body {
   }
 
   .idea-6 span {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .six .hat {
