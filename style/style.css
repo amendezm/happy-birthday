@@ -232,8 +232,9 @@ body {
 }
 
 .nine p {
-  font-size: 1.25rem;
-  font-weight: lighter;
+  color: #ff1460;
+  font-size: 0.85rem;
+  font-weight: bold;
 }
 
 #replay {
